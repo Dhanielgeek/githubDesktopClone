@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #24292e;
+    background-image: url('https://desktop.github.com/images/star-bg.svg'),linear-gradient(#191c20,#24292e  15% );
+    background-repeat: repeat-x;
+    background-position: center  0, 0 0, 0 0;
+}
+.header{
+    width: 100%;
+    height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header_container{
+    width: 40%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.LogoHolder{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.LogoHolder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Text_content{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Text_content span{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.Hero{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hero_container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.Hero_container h2{
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+}
+.Hero_container p{
+    text-align: center;
+    color: lightgrey;
+}
+.Hero_container button{
+    padding: 12px 20px;
+    background: #8149E3;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.OtherHero{
+    width: 100%;
+    height: 34vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.text_holder{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.otherBox{
+    width: 30%;
+    height: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10%;
+}
+.otherBox span{
+    text-align: center;
+    color: lightgray;
+}
+.one,.two,.three{
+    font-weight: 700;
+    color: white;
+}
+.otherBox a {
+    color: #8149E3;
+    text-decoration: none;
+}
+.Bydownloading{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Bydownloading span{
+    color: lightgray;
+}
+.Bydownloading a {
+    color: #8149E3;
+    text-decoration: none;
+}
+.ImgContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.imghold{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imghold img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.propsContainer{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    
+  
+}
+.propsbox{
+    width: 80%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.imgBox{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.imgBox img{
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+}
+.textHold{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.textHold h3{
+    font-weight: 500;
+    color: white;
+}
+.textHold p{
+    /* font-size: 15px; */
+    color: lightgray;
+}
+.textHold a{
+    color: #8149E3;
+    text-decoration: none;
+}
+.BuildHold{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.build{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buildContainer{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.buildBox{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buildButton{
+    width: 60%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buildButton button{
+    padding: 15px 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+    transition: all 350ms;
+    transform: scale(1);
+}
+.buildButton button:hover{
+    transform: scale(1);
+    background: white;
+    color: #191c20;
+}
+.buildImg{
+    width: 25%;
+    height: 25%;
+    background: #8149E3;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buildImg img{
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+.buildText{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.buildText h5{
+    font-weight: 700;
+    color: white;
+}
+.buildText p{
+    color: lightgray;
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerline{
+    width: 10%;
+    border: 1px solid rgb(94, 104, 115);
+}
+.footerhyper{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3%;
+    flex-direction: column;
+}
+.footerhyper div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+.footerhyper div a{
+    text-decoration: none;
+    color: #8149E3;
+}
+.footerhyper p{
+    color: gray;
+}
+
+
+@media screen and (max-width:840px) {
+    .Text_content{
+        width: 20rem;
+    }
+    .Hero_container p{
+        text-align: center;
+        width: 70%;
+    }
+    .text_holder{
+        width: 90%;
+    }
+    .Bydownloading{
+        width: 90%;
+    }
+    .imghold{
+        width: 97%;
+        
+    }
+    .propsbox{
+        width: 100%;
+        height: 25vh;  
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .Text_content{
+        width: 17rem;
+    }
+    .Hero{
+        height: 20rem;
+        width: 100%;
+    }
+    .Hero_container {
+        width: 100%;
+        justify-content: center;
+        gap: 7%;
+    }
+    .OtherHero{
+        height: 35rem;
+        justify-content: center;
+    }
+    .text_holder{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .otherBox{
+        width: 90%;
+        margin-top: 5px;
+        justify-content: center;
+    }
+    .Bydownloading{
+        width: 90%;
+        text-align: center;
+    }
+    .imghold{
+       width: 90%;
+    }
+   .propsContainer{
+    height: auto;
+   }
+   .propsbox{
+    height: 70vh;
+    flex-direction: column !important;
+   }
+    .textHold{
+        width: 100%;
+        height: 70%;
+        text-align: center;
+        justify-content: center;
+        gap: 5%;
+    }
+    .textHold h3,p{
+        width: 100%;
+    }
+    .imgBox{
+        width: 100%;
+    }
+    .BuildHold{
+        height: auto;
+    }
+    .buildContainer{
+        flex-direction: column;
+    }
+    .buildBox{
+        margin-top: 10px;
+        width: 100%;
+        height: 50vh;
+    }
+    .buildImg{
+        width: 20%;
+        height: 20%;
+    }
+    .footerline{
+        width: 100%;
+    }
+    .footerhyper{
+        width: 100%;
+      align-items: center;
+    }
+    .footerhyper p{
+        text-align: center;
+    }
+    .footerhyper div{
+        width: 100%;
+    }
+   
+}
